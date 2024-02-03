@@ -1,0 +1,43 @@
+// nav bar
+.menu{
+    background-color: $main-color;
+}
+body{
+    nav{
+        img{
+            width: 50%;
+            margin: 1%;
+        }
+    }
+}
+.navbar {
+    flex-wrap: nowrap;
+}
+.dropdown-menu a:active{
+    background-color: $secondary-color;
+    color: black;
+}
+// index
+.carousel{
+    margin: 1%;
+}
+.who-we-are{
+    margin: 2% 1% auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+        figure{
+            width: 50%;
+        }
+            figcaption{
+                font-size: $tittles;
+                color: $secondary-color;
+                margin: 2%;
+            }
+                p{
+                    margin: 2%;
+                }
+}
+.info{
+    border-left: solid #f87887 2px;
+}

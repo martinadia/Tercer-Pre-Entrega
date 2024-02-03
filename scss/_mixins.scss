@@ -1,0 +1,12 @@
+@mixin flex ($direction, $justy, $wrap){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justy;
+    flex-wrap: $wrap;
+}
+@mixin figcaption ($size,$color,$weight,$align){
+    font-size: $size;
+    color: $color;
+    font-weight: $weight;
+    text-align: $align;
+}

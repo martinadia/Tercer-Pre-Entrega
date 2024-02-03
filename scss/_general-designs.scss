@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+// vars
+// colors
+$main-color: #92ccb6;
+$secondary-color:#f87887;  
+$tittles-colors: #9e6b7c;
+// text sizes
+$tittles: 35px;
+$paragraphs: 18px;
+$tittles-responsive: 25px;
+$paragraphs-responsive: 15px;
+$figcaption: 20px;
+// starts generals designs
+ul{
+    li{
+        a{
+            text-transform: uppercase;
+        }
+   } 
+}
+a{
+    text-decoration: none;
+    color: black;
+        &:hover{
+            text-decoration: underline;
+        }
+}
+h1{
+    text-align: center;
+    font-size: $tittles;
+    margin: 1%;
+    color: $tittles-colors;
+    font-weight: bold;
+}
+p{
+    font-size: $paragraphs;
+    padding: 4px;
+    text-align: center;
+}
+

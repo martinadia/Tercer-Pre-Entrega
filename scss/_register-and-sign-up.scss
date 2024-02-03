@@ -1,0 +1,16 @@
+// starts register and sign up design
+.forms{
+    border: solid black 1px;
+    height: auto;
+    margin: 1%;
+}
+.titles-sign-up{
+    @include figcaption ($tittles,$tittles-colors,bold,center);
+    margin: 1%;
+}
+.buttons{
+    padding: 2px;
+    margin: 10px;
+    width: 15%;
+    background-color: $secondary-color;
+}

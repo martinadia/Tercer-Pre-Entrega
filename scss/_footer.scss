@@ -1,0 +1,36 @@
+// starts footer design
+footer{
+    background-color: $main-color;
+}
+.end-page{
+    @include flex (row,space-between,nowrap)
+}
+.links{
+    width: 30%;
+        ul li{
+            margin: 6%;
+            list-style-type: none;
+        } 
+}
+.social-icons{
+    width: 30%;
+    text-align: center;
+        a{
+            color: black;
+                svg{
+                    width: 20%;
+                    margin: 5%;
+                    text-align: center;
+                }
+        }
+
+}
+.logo-footer{
+    width: 30%;
+        img{
+            width: 90%;
+            display: flex;
+            justify-content: space-evenly; 
+        }
+}
+// ends footer design

@@ -1,0 +1,24 @@
+// starts products design
+.products-types{
+    margin: 20px;
+        figure{
+            border: solid black 1px;
+            border-radius: 10px;
+            figcaption{
+                @include figcaption ($figcaption,$secondary-color,bold,center)
+            }
+            img{
+                border-radius: 10px;
+            }
+        }
+        .btn{
+            color: $secondary-color;
+            border: solid $secondary-color 1px;
+            font-size: 18px;
+            &:hover{
+                background-color: $secondary-color;
+                color: black;
+            }
+        }
+}
+    
