@@ -1,6 +1,6 @@
 // starts products design
 .products-types{
-    margin: 20px;
+    margin: 15px;
         figure{
             border: solid black 1px;
             border-radius: 10px;
@@ -21,4 +21,12 @@
             }
         }
 }
-    
+.add-to-cart{
+    text-decoration: none;
+    color: $secondary-color;
+        &:hover{
+            text-decoration: none;
+            color: black;
+        }
+}
+  

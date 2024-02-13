@@ -12,6 +12,14 @@ footer{
             list-style-type: none;
         } 
 }
+.logo-footer{
+    width: 30%;
+        img{
+            width: 90%;
+            display: flex;
+            justify-content: space-evenly; 
+        }
+}
 .social-icons{
     width: 30%;
     text-align: center;
@@ -24,13 +32,5 @@ footer{
                 }
         }
 
-}
-.logo-footer{
-    width: 30%;
-        img{
-            width: 90%;
-            display: flex;
-            justify-content: space-evenly; 
-        }
 }
 // ends footer design

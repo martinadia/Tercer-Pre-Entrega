@@ -1,0 +1,42 @@
+// starts animations design
+.products-types{
+    figure{
+        position: relative;
+        overflow: hidden;
+        box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+        .sizes{
+            position: absolute;
+            top: 0;
+            width:95%;
+            height: auto;
+            background-color: rgb(185, 189, 186);
+            transition: all 500ms ease-out; 
+            opacity: 0;
+            visibility: hidden;
+            text-align: center;
+        }
+        &:hover > .sizes{
+            opacity: 1;
+            visibility: visible;
+            h3{
+                margin-top: 20px;
+                margin-bottom: 5px;
+            }
+        }
+        .sizes{
+            h3{
+                color: black;
+                font-size: 20px;
+                transition: all 500ms ease-out;
+                margin-top: 150px;
+            }
+            p{
+                color: black;
+                font-size: 18px;
+            }
+        }
+    }
+    img{
+      transition: all 500ms ease-out;  
+    }
+}

@@ -1,7 +1,7 @@
 // starts general designs responsive
 @media (width < 768px){
     h1{
-        font-size: 30px;
+        font-size: $tittles-responsive;
     }
 }
 // starts index responsive
@@ -26,15 +26,12 @@
     }
 }
 // starts products responsive
-@media (width <= 768px){
-    .products-types p{
-        font-size: $paragraphs-responsive;
-    }
-}
 @media (width < 768px){
-    .products-types p{
-        font-size: $paragraphs-responsive;
-    } 
+    .products-types{
+        p{
+            font-size: $paragraphs-responsive;
+        } 
+    }
 }
 // starts register and sign up responsive
 @media (width < 400px){
