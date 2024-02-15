@@ -25,6 +25,17 @@
         border-left: none;
     }
 }
+@media (width < 992px){
+    .menu{
+        background-color: $main-color;
+        top: 100%;
+    }
+    .navbar-collapse{
+        img{
+            width: 10%;
+        }
+    }
+}
 // starts products responsive
 @media (width < 768px){
     .products-types{

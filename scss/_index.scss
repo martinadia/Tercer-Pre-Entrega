@@ -1,7 +1,4 @@
-// nav bar
-.menu{
-    background-color: $main-color;
-}
+// navbar
 body{
     nav{
         img{
@@ -16,22 +13,7 @@ body{
     background-color: $secondary-color;
     color: black;
 }
-.navbar-collapse {
-    position: absolute;
-    top: 100%; 
-    left: 0; 
-    background-color: $main-color; 
-    width: 100%; 
-    z-index: 1000;
-    border: 1px solid #ced4da; 
-}
-.dropdown-menu {
-    position: static; /* Ajusta la posición del menú desplegable a estática */
-  }
 // index
-.carousel{
-    margin: 1%;
-}
 .who-we-are{
     margin: 2% 1% auto;
     text-align: center;
