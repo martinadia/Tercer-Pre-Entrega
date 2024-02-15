@@ -70,6 +70,10 @@ p {
   transition: all 500ms ease-out;
 }
 
+.menu {
+  background-color: #92ccb6;
+}
+
 body nav img {
   width: 50%;
 }
